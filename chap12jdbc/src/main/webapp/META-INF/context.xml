@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/chap12jdbc">
+    <Resource name="jdbc/murach" auth="Container" 
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"  
+        url="jdbc:sqlserver://LAPTOP-GD0BNATF:1433;databaseName=murach;"
+        username="sa" password="123456" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />  
+</Context>
